@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import 'antd/dist/antd.css';
-import App from './App';
 import LandingPage from './Page/landingPage/index'
 import CarsPage from './Page/carsPage/CarsPage';
 import reportWebVitals from './reportWebVitals';
@@ -20,7 +18,6 @@ root.render(
   <BrowserRouter>
     <Provider store={store}>
       <Routes>
-        <Route path="/test" element={<App />} />
         <Route path="/" element={<LandingPage />} />
         <Route path="/cars" element={<CarsPage />} />
         <Route path="/list" element={<ListCars />} />

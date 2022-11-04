@@ -56,10 +56,10 @@ function CarsPage() {
   {/* Home */}
   <article id="home" className="row align-items-end">
     <div className="col home-content align-self-center">
-      <h2 className="mb-5 font-weight-bold">Sewa &amp; Rental Mobil Terbaik di kawasan (Lokasimu)</h2>
+      <h2 className="mb-5 font-weight-bold">Sewa &amp; Rental Mobil Terbaik di kawasan Surabaya</h2>
       <p className="mb-5">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
     </div>
-    <img className="col-md-auto p-0" src="img/img_car.svg" alt />
+    <img className="col-md-auto p-0" src="img/img_car.png" alt />
   </article>
   {/* Search Car */}
   <form id="search" className="container p-3 rounded" onSubmit={handleSubmit}>
